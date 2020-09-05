@@ -1,19 +1,19 @@
+//normal challenge1
+//Create a react app from scratch.
+//It should display a h1 heading.
+//It should display an unordered list (bullet points).
+//It should contain 3 list elements.
 import React from "react";
-//var React = require("react");
 import ReactDOM from "react-dom";
-//var ReactDOM = require("react-dom");
 
-//This works
-//ReactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));\
-
-//following state will give error
-//ReactDOM.render(<h1>Hello World</h1><p>paragraph</p>, document.getElementById("root"));
-
-//soln:
 ReactDOM.render(
   <div>
-    <h1>Hello World</h1>
-    <p>paragraph</p>
+    <h1>My Favourite Foods</h1>
+    <ul>
+      <li>Bacon</li>
+      <li>jamon</li>
+      <li>noodles</li>
+    </ul>
   </div>,
   document.getElementById("root")
 );
