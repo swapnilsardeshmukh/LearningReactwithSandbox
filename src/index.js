@@ -1,19 +1,15 @@
-//normal challenge1
-//Create a react app from scratch.
-//It should display a h1 heading.
-//It should display an unordered list (bullet points).
-//It should contain 3 list elements.
+//adding constant hello swapnil and same with paragraph
+//
 import React from "react";
 import ReactDOM from "react-dom";
 
+const name="Swapnil";
+const num=7;
+
 ReactDOM.render(
   <div>
-    <h1>My Favourite Foods</h1>
-    <ul>
-      <li>Bacon</li>
-      <li>jamon</li>
-      <li>noodles</li>
-    </ul>
+    <h1>Hello {name}</h1>
+    <p>Your lucky number is 6</p>
   </div>,
   document.getElementById("root")
 );
